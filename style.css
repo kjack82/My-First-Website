@@ -17,10 +17,35 @@ h3 {
     text-align: center;
 }
 
-.reducedMainImage {
-    height: 15%;
-    width: 25%;
+.picture-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px
 }
+
+.photo {
+    flex: 1 1 200px;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section{
+    display: flex;
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+    background: black;
+    border-color: gold;
+    color: white;
+}
+
+
 
 .weblinks {
 font-size: large;
