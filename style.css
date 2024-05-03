@@ -1,0 +1,85 @@
+h1 {
+    font-size: xx-large;
+    color: darkmagenta;
+    border: aliceblue;
+    text-align: center;
+}   
+
+h2 {
+    font-size: large;
+    color: darkmagenta;
+    text-align: center;
+}
+
+h3 { 
+    font-size: large;
+    color: darkmagenta;
+    text-align: center;
+}
+
+.reducedMainImage {
+    height: 15%;
+    width: 25%;
+}
+
+.weblinks {
+font-size: large;
+color: white;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    background-color: gold;
+    padding:20px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.telephone {
+    display: flex;
+    align-items: center;
+}
+
+.telephone img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.email img {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.socialmedia-icons{
+    text-align: center;
+}
+
+.socialmedia-icons a {
+    display: inline block;
+    margin: 0 10px;
+}
+
+.socialmedia-icons img {
+    width: 40px; 
+    height: 40px;
+}
+
+.className {
+    background-color: green;
+}
+
+#idName {
+    background-color: blue;
+}
